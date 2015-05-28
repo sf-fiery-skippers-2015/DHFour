@@ -3,7 +3,7 @@
 
 // ALL BELOW ARE WITH AJAX//
 // set player image options
-var player_images = ["derek.png", "sherrif.png", "hunter.png"];
+var player_images = ["derek.png", "sherif.png", "hunter.png"];
 var index = Math.floor(Math.random() * 3)
 var player1 = player_images.splice(index, 1)
 var player2 = player_images.pop
