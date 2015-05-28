@@ -23,15 +23,16 @@ h3 {
   width: 120px;
   margin: 5px;
   margin-bottom: 25px;
+  display: flex;
 }
 
 .column {
   text-align: center;
   height: 135px;
   width: 120px;
-  margin: 5px;
+  margin: 100px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .cell {
