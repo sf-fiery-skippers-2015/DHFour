@@ -8,38 +8,59 @@ h3 {
   text-align: center;
 }
 
-.container:before {
-  display: table;
-  content: "";
-}
-
-.container:after element {
-  clear: both;
-}
 .container {
-  text-align: center;
-  float: left;
-  height: 135px;
-  width: 120px;
-  margin: 5px;
-  margin-bottom: 25px;
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  width: 80%;
   display: flex;
+  position: relative;
 }
 
 .column {
-  text-align: center;
-  height: 135px;
-  width: 120px;
-  margin: 100px;
+  margin: 1% 0 1% 1.6%;
   display: flex;
   flex-direction: column;
 }
 
-.cell {
-  float: center;
-  height: 135px;
-  width: 120px;
-  margin: 70px;
+.col:first-child { margin-left: 0; }
+
+.container:before,
+.container:after { 
+  content: "";
+  display:table; 
+}
+
+.container:after { 
+  clear:both;
+}
+
+#1 {
+  width: 12.91%;
+}
+
+#2 {
+  width: 27.42%;
+}
+
+#3 {
+  width: 41.94%;
+}
+
+#4 {
+  width: 56.45%;
+}
+
+#5 {
+  width: 70.97%;
+}
+
+#6 {
+  width: 85.48%;
+}
+
+#7 {
+  width: 100%;
 }
 
 .game_piece {
