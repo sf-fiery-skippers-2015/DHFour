@@ -1,14 +1,16 @@
-h1 {
-  display: block;
-  text-align: center;
+body {
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
 }
 
-h3 {
+h1, h3 {
   display: block;
   text-align: center;
 }
 
 .container {
+<<<<<<< HEAD
   clear: both;
   padding: 0px;
   margin: 0px;
@@ -61,10 +63,27 @@ h3 {
 
 #7 {
   width: 100%;
+  display: flex;
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.column {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  width: auto;
+  height: auto;
 }
 
 .game_piece {
-  width: 120px;
-  margin: 5px;
   border-radius: 50%;
+}
+
+img {
+  height: 135px;
+  width: 135px;
 }
