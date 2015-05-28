@@ -1,3 +1,8 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
 h1 {
   display: block;
   text-align: center;
@@ -9,41 +14,28 @@ h3 {
 }
 
 .container:before {
-  display: table;
-  content: "";
 }
 
 .container:after element {
-  clear: both;
 }
+
 .container {
-  text-align: center;
-  float: left;
-  height: 135px;
-  width: 120px;
-  margin: 5px;
-  margin-bottom: 25px;
   display: flex;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .column {
-  text-align: center;
-  height: 135px;
-  width: 120px;
-  margin: 100px;
   display: flex;
   flex-direction: column;
 }
 
 .cell {
-  float: center;
-  height: 135px;
-  width: 120px;
-  margin: 70px;
+
 }
 
 .game_piece {
-  width: 120px;
-  margin: 5px;
   border-radius: 50%;
 }
+
