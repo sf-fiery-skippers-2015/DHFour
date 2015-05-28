@@ -10,59 +10,6 @@ h1, h3 {
 }
 
 .container {
-<<<<<<< HEAD
-  clear: both;
-  padding: 0px;
-  margin: 0px;
-  width: 80%;
-  display: flex;
-  position: relative;
-}
-
-.column {
-  margin: 1% 0 1% 1.6%;
-  display: flex;
-  flex-direction: column;
-}
-
-.col:first-child { margin-left: 0; }
-
-.container:before,
-.container:after { 
-  content: "";
-  display:table; 
-}
-
-.container:after { 
-  clear:both;
-}
-
-#1 {
-  width: 12.91%;
-}
-
-#2 {
-  width: 27.42%;
-}
-
-#3 {
-  width: 41.94%;
-}
-
-#4 {
-  width: 56.45%;
-}
-
-#5 {
-  width: 70.97%;
-}
-
-#6 {
-  width: 85.48%;
-}
-
-#7 {
-  width: 100%;
   display: flex;
   width: 1024px;
   margin: 0 auto;
