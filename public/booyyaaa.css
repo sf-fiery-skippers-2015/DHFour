@@ -1,41 +1,36 @@
 body {
- margin: 0;
- padding: 0;
+  min-width: 1280px;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
+h1, h3 {
   display: block;
   text-align: center;
-}
-
-h3 {
-  display: block;
-  text-align: center;
-}
-
-.container:before {
-}
-
-.container:after element {
 }
 
 .container {
   display: flex;
-  position: relative;
-  width: 80%;
+  width: 1024px;
   margin: 0 auto;
 }
 
 .column {
+  margin: auto;
   display: flex;
   flex-direction: column;
 }
 
 .cell {
-
+  width: auto;
+  height: auto;
 }
 
 .game_piece {
   border-radius: 50%;
 }
 
+img {
+  height: 135px;
+  width: 135px;
+}
